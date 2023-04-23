@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            color: #000000;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        a {
+            color: #000000;
+        }
+
+        .notice-main-heading {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        /* table style start */
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            background: #854FFF;
+            color: #ffffff !important;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            vertical-align: top;
+            font-size: 16px;
+            color: #000000;
+        }
+
+        /* .score-section table th {
+            padding: 10px;
+
+        }
+
+        .score-section table td {
+            padding: 10px;
+        } */
+
+
+        table,
+        th,
+        td {
+            border: 1px solid #000000;
+            border-collapse: collapse;
+        }
+
+        /* reporting table style */
+
+        /* .report-table table th {
+            padding: 10px 10px 0px 10px;
+        }
+
+        .report-table table td {
+            padding: 0px 10px 10px 10px;
+        } */
+
+
+        /* notice detail paragraphs style start */
+
+        .notice-text {
+            margin-top: 20px;
+        }
+
+        /* dealer section style */
+
+        .dealer-main-heading {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .dealer-contact>p {
+            margin-top: 3px;
+        }
+
+
+        /* reporting act style */
+
+        .reporting-act-heading {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+
+        @media screen and (max-width: 767px) {
+            .notice-main-heading {
+                font-size: 22px;
+            }
+            
+            .dealer-main-heading, .reporting-act-heading, .reporting-act-heading {
+                font-size: 20px;
+            }
+
+            th {
+                font-size: 15px;
+            }
+
+            td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="logo-image-small">
+                <img src="http://www.credit-apps.com/static/home/assets/images/logo.png" />
+            </div>
+            <div class="score-section">
+                <h1 class="notice-main-heading">Your Adverse Action Notice</h1>
+                <div class="score-table table-responsive-md">
+                    <table class="">
+                        <thead>
+                            <tr>
+                                <th class="col-lg-3">Reason (Score Information)</th>
+                                <th class="col-lg-2">Credit Score</th>
+                                <th class="col-lg-2">Consumer Reporting Agency</th>
+                                <th class="col-lg-2">Applicant</th>
+                                <th class="col-lg-1">Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Derogatory public record or collection field prop of balances to credit limits is
+                                    too
+                                    high on bank rev or other rev accts Length of time since derogatory public record or
+                                    collection is too short Length of time accounts have been established
+                                </td>
+                                <td>Score: <strong>642</strong> <br> Low of 300 to a high of 850</td>
+                                <td>Equifax</td>
+                                <td>TIRIK J <br> MOBLEY <br> MARKLAND <br> LN <br> DELRAY <br> BEACH, FL <br> 33484</td>
+                                <td><strong>NOV <br> 11 <br> 2022</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="notice-detail">
+                    <p class="notice-text">
+                        This letter is being sent to you because your credit report was recently obtained at our
+                        dealereship to purchase or lease a vehicle. If you purchased or leased a new or preowned vehicle
+                        from our dealereship, then you have received this letter in error. We apologize for the
+                        inconvenience
+                        of this letter.
+                    </p>
+                    <p class="notice-text">
+                        This letter is being sent to you because you were either denied credit or offered credit or
+                        lower terms
+                        than what you applied for based on your recent credit inquiry for a vehicle. This letter does
+                        not affect
+                        your credit record or score.
+                    </p>
+                    <p class="notice-text">
+                        In evaluating your application, the above consumer reporting agency provided us with information
+                        that
+                        in whole or in part influenced our decision. The consumer reporting agency did not play a part
+                        in the
+                        decision and is unable to supply reasons why a lender may not have been available for your
+                        purchase.
+                        If you find that any inaccurate or incomplete information in your credit report, you hve the
+                        right to
+                        contact the consumer reporting agency and dispute the matter.
+                    </p>
+                    <p class="notice-text">
+                        You hve the right under the Fair Credit Reporting Act to know the information contained in your
+                        credit
+                        report at the consumer reporting agency. You have the right to a free copy of your credit report
+                        form
+                        the consumer reporting agency, if you request it no later than 60 days after you receive this
+                        notice.
+                        Your credit report can be obtained by contacting the consumer report agency below.
+                    </p>
+                </div>
+            </div>
+
+            <div class="table-report-section">
+                <div class="report-table mt-4 mb-3 table-responsive-md">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th rowspan="2" class="col-lg-4 border-bottom-0">Contact Consumer Reporting Agencies
+                                </th>
+                                <th class="col-lg-2 border-bottom-0">Equifax</th>
+                                <th class="col-lg-2 border-bottom-0">Experian</th>
+                                <th class="col-lg-2 border-bottom-0">TransUnion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="border-top-0"></td>
+                                <td class="border-top-0">P.O. Box 740241 Atlanta, GA <br> 30374 <br> (800) 865-1111
+                                    <a href="#">www.equifax.com</a>
+                                </td>
+                                <td class="border-top-0">P.O. Box 2104 Allen, TX 75013 (888) 397-3742 <a
+                                        href="#">www.experian.com</a>
+                                </td>
+                                <td class="border-top-0">2 Baldwin Place, PO Box <br> 1000 <br> Chester, PA 19022 <br>
+                                    (800) 888-4213 <br> <a href="#">www.transunion.com</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-report-detail">
+                    <p>You have the right under the Fair Credit Reporting Act to know the information contained
+                        in your credit report at the consumer reporting agency. You have the right a free copy of
+                        your credit report from the consumer reporting agency, if you request it no later than 60
+                        days after you receive this notice. Your credit report can be obtained by contacting the
+                        consumer report agency below.
+                    </p>
+                </div>
+                <div class="dealer-contact">
+                    <h1 class="dealer-main-heading mt-4 mb-2">Simple Dealer</h1>
+                    <p>PO BOX 50111</p>
+                    <p>Atlanta, GA 30308</p>
+                    <p>1-866-794-8252</p>
+                    <p>compliance@simpledealer.com</p>
+                </div>
+                <div class="reporting-act-section">
+                    <h1 class="reporting-act-heading mt-4 mb-2">Fair Credit Reporting Act Notice</h1>
+                    <p>Under the Fair Credit Reporting Act, you also have a right to a free copy of your report from
+                        the reporting agency, if you request it no later than 60 days after you receive this notice.
+                        In addition, if you find that any information contained in the report you receive is
+                        inaccurate
+                        or incomplete, you have the right to dispute the matter with credit reporting agency.
+                    </p>
+                    <h1 class="reporting-act-heading mt-4 mb-2">Equal Credit Opportunity Act Notice</h1>
+                    <p>The Federal Equal Credit Opportunity Act Prohibits creditors from discriminating against
+                        credit
+                        applicants on the basis of race, color, religion, national origin, sex, martial status,
+                        age(provided
+                        the applicant has the capacity to enter into a binding contract); because all or part of the
+                        applicant's
+                        income derives from any public assistance program, or because the applicants has in good
+                        faith exercised
+                        any right under the Consumer Credit Protection Act. The federal agency administers
+                        compliance with this law
+                        concerning this creditor is the Bureau of Consumer Financial Protection, 1700 G Street
+                        Northwest, Washington,
+                        DC, 20006.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="">
+        <div class="" style="display: flex;">
+            <input type="text" placeholder="dklaskdlasdladkaldaldak">
+            <input type="text" placeholder="dklaskdlasdladkaldaldak">
+            <input type="text">
+            <input type="text">
+        </div>
+    </div> -->
+</body>
+
+</html>
